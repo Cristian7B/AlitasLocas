@@ -1,9 +1,17 @@
+// Imports de imágenes para que Vite las procese correctamente
+import soloParaTiImg from '../../../assets/Solo para ti.webp';
+import duoDeliveryImg from '../../../assets/Duo delivery.webp';
+import familiarImg from '../../../assets/Familiar en casa.webp';
+import oficinaImg from '../../../assets/Oficina - Amigos.webp';
+import parrandaImg from '../../../assets/Parranda en casa.webp';
+import papasImg from '../../../assets/Papas.webp';
+
 export const products = [
   {
     id: 1,
     title: "Solo para ti",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/src/assets/images/Solo para ti.webp",
+    image: soloParaTiImg,
     category: "S",
     buttonText: "Comprar"
   },
@@ -11,7 +19,7 @@ export const products = [
     id: 2,
     title: "Duo Delivery",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/src/assets/images/Duo delivery.webp",
+    image: duoDeliveryImg,
     category: "M",
     buttonText: "Comprar"
   },
@@ -19,7 +27,7 @@ export const products = [
     id: 3,
     title: "En familia",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/src/assets/images/Familiar en casa.webp",
+    image: familiarImg,
     category: "G",
     buttonText: "Comprar"
   },
@@ -27,7 +35,7 @@ export const products = [
     id: 4,
     title: "En la oficina",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/src/assets/images/Oficina - Amigos.webp",
+    image: oficinaImg,
     category: "B",
     buttonText: "Comprar"
   },
@@ -35,7 +43,7 @@ export const products = [
     id: 5,
     title: "Parranda en casa",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/src/assets/images/Parranda en casa.webp",
+    image: parrandaImg,
     category: "B",
     buttonText: "Comprar"
   },
@@ -43,7 +51,7 @@ export const products = [
     id: 6,
     title: "Adiciones",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    image: "/src/assets/images/Papas.webp",
+    image: papasImg,
     category: "A",
     buttonText: "Comprar"
   }
