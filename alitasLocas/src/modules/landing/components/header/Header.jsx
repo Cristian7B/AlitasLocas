@@ -1,4 +1,4 @@
-import { Buttons } from "./buttons";
+import { Buttons } from "./Buttons";
 import { Nav } from "./Nav";
 import showIcon from "../../../../assets/images/ShowIcon.svg"
 import landingImage from "../../../../assets/images/LandingImg.webp"
