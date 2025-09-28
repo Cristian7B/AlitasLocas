@@ -366,7 +366,8 @@ header {
   box-shadow: 0px 1px 1px -0.5px rgba(0, 0, 0, 0.03), 0px 3px 3px -1.5px rgba(0, 0, 0, 0.03), 0px 6px 6px -3px rgba(0, 0, 0, 0.03), 0px 32px 32px -16px rgba(0, 0, 0, 0.03), 0px 56px 56px -28px rgba(0, 0, 0, 0.03);
   border-radius: 40px;
   flex-wrap: wrap;
-  gap: 23px 16px;
+  gap: 30px;
+  justify-content: center;
 }
 
 .productCard {
@@ -462,7 +463,7 @@ header {
 @media(width <= 900px) {
   .containerProductsGeneral {
     justify-content: center;
-    max-width: 100%;
+    max-width: 80%;
   }
 }
 
@@ -494,7 +495,7 @@ header {
 
 @media(width <= 602px) {
   .containerProductsGeneral {
-    gap: 20px;
+    gap: 40px;
     justify-content: center;
   }
 }
@@ -503,5 +504,11 @@ header {
   .generalContainer h1 {
     font-size: 50px;
     text-align: center;
+  }
+}
+
+@media(width <= 450px) {
+  .generalContainer h1 {
+    font-size: 40px;
   }
 }
