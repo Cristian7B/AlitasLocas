@@ -4,12 +4,23 @@ export function ProductCard({
     description,
     image,
     category,
-    buttonText
+    buttonText,
+    imageHeight
 }) {
+    // validamos si se debe aplicar el "overflow"
+    const shouldOverflow = imageHeight >= 150;
+
     return (
         <div className="productCard">
-            <div className="imageProduct">
-                <img src={image} alt={title} />
+            <div 
+              className="imageProduct" 
+              style={{ marginTop: shouldOverflow ? `-${imageHeight / 4}px` : "0" }}
+            >
+                <img 
+                  src={image} 
+                  alt={title} 
+                  style={{ height: `${imageHeight}px`, objectFit: "contain" }} 
+                />
             </div>
             <div className="infoProduct">
                 <h2>{title}</h2>

@@ -13,7 +13,8 @@ export const products = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     image: soloParaTiImg,
     category: "S",
-    buttonText: "Comprar"
+    buttonText: "Comprar",
+    imageHeight: 120 
   },
   {
     id: 2,
@@ -21,7 +22,8 @@ export const products = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     image: duoDeliveryImg,
     category: "M",
-    buttonText: "Comprar"
+    buttonText: "Comprar",
+    imageHeight: 140
   },
   {
     id: 3,
@@ -29,7 +31,8 @@ export const products = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     image: familiarImg,
     category: "G",
-    buttonText: "Comprar"
+    buttonText: "Comprar",
+    imageHeight: 180 
   },
   {
     id: 4,
@@ -37,7 +40,8 @@ export const products = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     image: oficinaImg,
     category: "B",
-    buttonText: "Comprar"
+    buttonText: "Comprar",
+    imageHeight: 150
   },
   {
     id: 5,
@@ -45,7 +49,8 @@ export const products = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     image: parrandaImg,
     category: "B",
-    buttonText: "Comprar"
+    buttonText: "Comprar",
+    imageHeight: 170
   },
   {
     id: 6,
@@ -53,7 +58,7 @@ export const products = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     image: papasImg,
     category: "A",
-    buttonText: "Comprar"
+    buttonText: "Comprar",
+    imageHeight: 100
   }
 ];
-

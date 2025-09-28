@@ -379,6 +379,15 @@ header {
   box-shadow: 0px 1px 1px -0.5px rgba(0, 0, 0, 0.03), 0px 3px 3px -1.5px rgba(0, 0, 0, 0.03), 0px 6px 6px -3px rgba(0, 0, 0, 0.03), 0px 32px 32px -16px rgba(0, 0, 0, 0.03), 0px 56px 56px -28px rgba(0, 0, 0, 0.03);
   border-radius: 40px;
   padding: 9px;
+  max-height: 300px;
+  justify-content: space-between;
+  position: relative;
+  overflow: visible;
+}
+
+.productCard img {
+  position: relative;
+  /* margin-top: -40px; */
 }
 
 .infoProduct {
@@ -448,4 +457,51 @@ header {
   color: #6635F2;
 
 
+}
+
+@media(width <= 900px) {
+  .containerProductsGeneral {
+    justify-content: center;
+    max-width: 100%;
+  }
+}
+
+@media(width <= 700px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  nav {
+    position: static;
+    margin-bottom: 50px;
+  }
+}
+
+@media(width <= 570px) {
+  .headerText {
+    align-items: center;
+    text-align: center;
+    left: 0;
+  }
+
+  .headerImage img {
+    width: 300px;
+    margin-top: 40px;
+  }
+}
+
+@media(width <= 602px) {
+  .containerProductsGeneral {
+    gap: 20px;
+    justify-content: center;
+  }
+}
+
+@media(width <= 550px) {
+  .generalContainer h1 {
+    font-size: 50px;
+    text-align: center;
+  }
 }
