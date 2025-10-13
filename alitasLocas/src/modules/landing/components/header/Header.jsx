@@ -17,7 +17,7 @@ export function Header() {
                         ¡Las mejores alitas de Bogotá!
                     </h1>
                     <p className="descriptionText">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                       Alitas llenas de sabor, preparadas al momento, listas para volar directo a tu paladar y el toque perfecto para compartir con quien quieras.
                     </p>
                     <Buttons/>
                     <p className="locationText">Por ahora en: Bogotá</p>

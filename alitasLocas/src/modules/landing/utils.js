@@ -10,7 +10,7 @@ export const products = [
   {
     id: 1,
     title: "Solo para ti",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    description: "Disfruta seis alitas con tu salsa favorita, acompañadas de papas o yuca y una bebida bien fría para un antojo irresistible.",
     image: soloParaTiImg,
     category: "S",
     buttonText: "Comprar",
@@ -19,7 +19,7 @@ export const products = [
   {
     id: 2,
     title: "Duo Delivery",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    description: "Comparte doce alitas con hasta dos sabores distintos, dos acompañantes medianos y bebidas individuales.",
     image: duoDeliveryImg,
     category: "M",
     buttonText: "Comprar",
@@ -28,7 +28,7 @@ export const products = [
   {
     id: 3,
     title: "En familia",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    description: "Veinte alitas jugosas con tres sabores a elección, dos acompañantes grandes y una bebida de 1.5 L.",
     image: familiarImg,
     category: "G",
     buttonText: "Comprar",
@@ -37,7 +37,7 @@ export const products = [
   {
     id: 4,
     title: "En la oficina",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    description: "Cincuenta alitas irresistibles con cinco sabores, cinco acompañantes grandes y bebidas o cervezas.",
     image: oficinaImg,
     category: "B",
     buttonText: "Comprar",
@@ -46,7 +46,7 @@ export const products = [
   {
     id: 5,
     title: "Parranda en casa",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    description: "Treinta alitas llenas de sabor con hasta cuatro combinaciones, tres acompañantes grandes y una bebida 3 L o cervezas.",
     image: parrandaImg,
     category: "B",
     buttonText: "Comprar",
@@ -55,7 +55,7 @@ export const products = [
   {
     id: 6,
     title: "Adiciones",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    description: "Completa tu experiencia con papas, yuca, arepitas, salsas extra o bebidas frías que realzan cada bocado de tus alitas.",
     image: papasImg,
     category: "A",
     buttonText: "Comprar",
