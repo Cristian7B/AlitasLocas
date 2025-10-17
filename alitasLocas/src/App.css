@@ -213,7 +213,7 @@ nav {
   font-weight: 600;
   font-size: 23px;
   line-height: 28px;
-  top: -150px;
+  top: -110px;
   left: 0px;
 
   color: #FFFEE6;
@@ -244,9 +244,33 @@ header {
   height: 100vh;
   background: url("./assets/images/FinalWall.png") no-repeat center center/cover;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
+
+.containerHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.downArrow {
+  position: absolute;
+  bottom: 20px;
+  width: 30px;
+  opacity: 50%;
+}
+
+.headerPartial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
 
 .headerText {
   display: flex;
@@ -481,6 +505,7 @@ header {
 .menuContainer {
   max-width: 900px;
 }
+
 
 @media(width <= 900px) {
   .containerProductsGeneral {
