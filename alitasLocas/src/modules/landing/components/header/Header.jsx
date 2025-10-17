@@ -8,9 +8,11 @@ export function Header() {
     return (
         <>
             <header>
+                <section className="navContainer">
+                    <Nav/>
+                </section>
                 <section className="containerHeader">
                     <div className="headerText">
-                        <Nav/>
                         <div className="importantText">
                             <img src={showIcon} alt="Important icon" />
                             <p>Descubre una nueva adicción</p>
